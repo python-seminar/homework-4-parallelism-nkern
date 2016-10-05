@@ -28,9 +28,9 @@ def throw(N_darts,verbose=False):
 	pi_approx = 4 * float(hit) / N_darts
 
 	if verbose == True:
-		print "Pi Approx:", pi_approx
-		print "N_darts:", N_darts
-		print "Execution Time (s):",ellapsed
-		print "Darts Thrown / Sec:", rate
+		print("Pi Approx:", pi_approx)
+		print("N_darts:", N_darts)
+		print("Execution Time (s):",ellapsed)
+		print("Darts Thrown / Sec:", rate)
 	return ellapsed, rate
 
